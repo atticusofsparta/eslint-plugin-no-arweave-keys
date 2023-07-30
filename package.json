@@ -1,0 +1,24 @@
+{
+  "name": "eslint-plugin-no-arweave-keys",
+  "version": "1.0.0",
+  "description": "An ESLint plugin to disallow Arweave keys in JSON files",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "lint:check": "eslint ."
+  },
+  "keywords": [
+    "eslint",
+    "eslintplugin",
+    "arweave"
+  ],
+  "author": "atticus",
+  "license": "MIT",
+  "peerDependencies": {
+    "eslint": "^7.0.0"
+  },
+    "devDependencies": {
+    "eslint": "^8.46.0",
+    "jest": "^29.6.2"
+  }
+}
