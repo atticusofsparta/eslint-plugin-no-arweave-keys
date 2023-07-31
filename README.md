@@ -6,23 +6,23 @@ An ESLint plugin to disallow Arweave keys in JSON files.
 
 First, you'll need to install [ESLint](http://eslint.org):
 
-\`\`\`bash
+```bash
 npm i eslint --save-dev
-\`\`\`
+```
 
-Next, install \`eslint-plugin-no-arweave-keys\`:
+Next, install `eslint-plugin-no-arweave-keys`:
 
-\`\`\`bash
+```bash
 npm install eslint-plugin-no-arweave-keys --save-dev
-\`\`\`
+```
 
-**Note:** If you installed ESLint globally (using the `-g` flag) then you must also install \`eslint-plugin-no-arweave-keys\` globally.
+**Note:** If you installed ESLint globally (using the `-g` flag) then you must also install `eslint-plugin-no-arweave-keys` globally.
 
 ## Usage
 
-Add \`no-arweave-keys\` to the plugins section of your \`.eslintrc\` configuration file, and configure the rules you want to use under the rules section.
+Add `no-arweave-keys` to the plugins section of your `.eslintrc` configuration file, and configure the rules you want to use under the rules section.
 
-\`\`\`json
+```json
 {
     "plugins": [
         "no-arweave-keys"
@@ -31,7 +31,7 @@ Add \`no-arweave-keys\` to the plugins section of your \`.eslintrc\` configurati
         "no-arweave-keys/no-arweave-keys": "error"
     }
 }
-\`\`\`
+```
 
 ## Supported Rules
 
@@ -41,6 +41,6 @@ Add \`no-arweave-keys\` to the plugins section of your \`.eslintrc\` configurati
 
 You can run tests for this plugin with:
 
-\`\`\`bash
+```bash
 npm run test
-\`\`\`
+```
